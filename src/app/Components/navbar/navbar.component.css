@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ligne {
+    display: flex;
+    height: 8px; /* Ajustez la hauteur selon vos besoins */
+}
+
+.bleu {
+    flex: 5; /* 50% de la largeur */
+    background-color: #256bb0; /* Bleu */
+}
+
+.bleu-clair {
+    flex: 3; /* 30% de la largeur */
+    background-color: #29366f; /* Bleu clair */
+}
+
+.gris {
+    flex: 2; /* 20% de la largeur */
+    background-color: #7e7e73; /* Gris */
+}
+
+.marron {
+    flex: 1; /* 10% de la largeur */
+    background-color: #89654e; /* Marron */
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon, .contact-text {
+    width: 30px; /* Définir la même largeur */
+    height: 30px; /* Définir la même hauteur */
+}
+
+
+.contact-icon {
+    margin-right: 10px; /* Ajouter un espace à droite de 10 pixels */
+    margin-bottom: 18px; /* Ajouter un espace en bas de 10 pixels */
+}
+
+.contact-text {
+    width: 40px; /* Définir la même largeur */
+    height: 30px; /* Définir la même hauteur */
+}
+
