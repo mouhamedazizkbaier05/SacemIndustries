@@ -1,7 +1,6 @@
-
-#b1{position: relative;
-    bottom: 50px;
-    left: 60%;
+#b1 {
+  position: relative;
+  left: 60%;
   align-items: center;
   background-color: #29366f;
   border: 2px solid #29366f;
@@ -16,7 +15,7 @@
   justify-content: center;
   letter-spacing: -.8px;
   line-height: 24px;
-  min-width: 15%;
+  width: 15%;
   outline: 0;
   padding: 0 17px;
   text-align: center;
@@ -48,152 +47,156 @@
     min-width: 170px;
   }
 }
+
+/* Navigation Bar Styles */
 .ligne {
   display: flex;
-  height: 8px; /* Ajustez la hauteur selon vos besoins */
+  height: 8px;
 }
 
 .bleu {
-  flex: 5; /* 50% de la largeur */
-  background-color: #256bb0; /* Bleu */
+  flex: 5;
+  background-color: #256bb0;
 }
 
 .bleu-clair {
-  flex: 2.5; /* 25% de la largeur */
-  background-color: #29366f; /* Bleu clair */
+  flex: 2.5;
+  background-color: #29366f;
 }
 
 .gris {
-  flex: 1.5; /* 15% de la largeur */
-  background-color: #7e7e73; /* Gris */
+  flex: 1.5;
+  background-color: #7e7e73;
 }
 
 .marron {
-  flex: 1; /* 10% de la largeur */
-  background-color: #89654e; /* Marron */
+  flex: 1;
+  background-color: #89654e;
 }
 
 #b2 {
-    position: relative;
-    bottom: 50px;
-    left: 60%;
-    background-color: #7e7e73; /* Change this to your desired shade of gray */
-    border: none; /* Remove the border */
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    height: 48px;width: 55px;
-    justify-content: center;
-    letter-spacing: -.8px;
-    line-height: 24px;
-    min-width: 15%;
-    outline: 0;
-    padding: 0 17px;
-    text-align: center;
-    text-decoration: none;
-    transition: all .3s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
- 
-  
-  #b2:hover {
-    background-color: #7e7e73; /* Adjust hover color if needed */
-  }
-  
-  #b2:active {
-    background-color: #7e7e73; /* Adjust active color if needed */
-  }
-  .logo {
-    display: block;
-    width: 200px; /* Adjust the width as needed */
-    height: 110px; /* Adjust the height as needed */
-    background-image: url('/assets/Logo.png'); /* Replace 'logo-image.jpg' with your image file path */
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-     /* Adjust the distance from the top */
-    left: 20px; /* Adjust the distance from the left */
-    z-index: 1000; /* Adjust the z-index as needed */
-  }
-.row{position: relative;
-  margin-top: -4%;
-  left: 3%;
-}
-.col1{
-  margin-top: 0;
-}
-.col2{
-  margin-left: 40%;
-  margin-top: 3%;position: relative;
-  left: 4.5%;
-}
-#contact{
-  position: relative;left: 2.5%;
-}
-.bi-chat {
-  width: 30px; /* Adjust the width to make the icon bigger */
-  height: 30px; /* Adjust the height to make the icon bigger */
-  fill: #333;
   position: relative;
-  top: 30%; /* Change the color to a darker shade */
+  left: 60%;
+  background-color: #7e7e73;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  width: 15%;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 15%;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
-#col3{
-  position: relative; left: 33%;bottom:  60%;
+
+#b2:hover {
+  background-color: #7e7e73;
 }
-.group {
+
+#b2:active {
+  background-color: #7e7e73;
+}
+
+/* Logo Styles */
+.logo {
+  display: block;
+  width: 200px;
+  height: 110px;
+  background-image: url('/assets/Logo.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  z-index: 1000;
+}
+
+/* Header Row Styles */
+.row {
   display: flex;
-  line-height: 28px;bottom: 140%;
+  justify-content: space-between;
   align-items: center;
-  position: relative;left: 176%;
- }
- 
- .input {
-  width: 65%;
-  height: 40px;
+  margin-top: -10px;
+}
+
+/* Column Styles */
+.col2 {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+
+.bi-chat {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  fill: #333;
+  top: 5px;
+
+}
+
+#contact {
+  margin-left: 10px;
+  font-size: 16px;
+  position: relative;
+  color: #29366f;
+  top: 15px;
+}
+.col3{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 60%;
+  margin-top: -30px;
+}
+.col4{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 80%;
+  margin-top: -30px;
+
+}
+.input {
+  width: 20%;
+  height: 30px;
   line-height: 28px;
   padding-left: 2.5rem;
   border-radius: 8px;
-  outline: none;
   background-color: #ffffff;
-  color:  #29366f;
- }
- 
- .input::placeholder {
-  color: #9e9ea7;
- }
- 
- .input:focus, input:hover {
-  outline: none;
-  border-color:  #29366f;
-  background-color:  #ffffff;
- }
- 
- .icon {
-  position: absolute;
-  left: 1rem;
-  fill:  #29366f;
+  color: #29366f;
+}
+
+.icon {
+  position: relative;left: 25px;
+  fill: #030304;
   width: 1rem;
   height: 1rem;
- }
- #p2 {
-  position: relative;
-  left: 7%;
-  top: 60%;
-  font-size: 21px;
 }
+
 
 .bi.bi-list {
   position: relative;
-  left: 15px;
-  width: 30%;
-  height: 30%;
+  right: -30px;
+  width: 100px;
+  /* Adjusted width */
+  height: 100px;
+  /* Adjusted height */
 }
 
- 
- 
- 
 
-
-
+#p2 {
+  position: relative;
+  right: 50px;
+  font-size: 20px;top: -30px;
+}
